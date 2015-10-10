@@ -3,5 +3,5 @@ var Kefir     = require('kefir')
 
 module.exports = function (url, interval) {
   return Kefir.interval(interval)
-              .flatMapLatest(kefirGet(url))
+              .flatMapLatest(function () { return kefirGet(url) })
 }
