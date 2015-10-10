@@ -1,5 +1,5 @@
 var Kefir     = require('kefir')
-  , kefirGet = require('./ajax.js')
+  , kefirGet = require('kefir-get')
 
 module.exports = function (url, interval) {
   return Kefir.interval(interval)
