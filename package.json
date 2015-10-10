@@ -1,6 +1,6 @@
 {
   "name": "timesink",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a kefir stream of times from a timeserver",
   "main": "index.js",
   "scripts": {
