@@ -1,0 +1,33 @@
+{
+  "name": "timesink",
+  "version": "1.0.0",
+  "description": "a kefir stream of times from a timeserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elsehow/timesink.git"
+  },
+  "keywords": [
+    "kefir",
+    "time",
+    "sync",
+    "timeserver"
+  ],
+  "author": "elsehow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsehow/timesink/issues"
+  },
+  "homepage": "https://github.com/elsehow/timesink#readme",
+  "dependencies": {
+    "browser-request": "^0.3.3",
+    "is-browser": "^2.0.1",
+    "jquery": "^2.1.4",
+    "kefir": "^3.1.0",
+    "kefir-jquery-ajax": "^1.0.1",
+    "request": "^2.64.0"
+  }
+}
