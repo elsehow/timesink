@@ -1,6 +1,6 @@
 # timesink
 
-got a timeserver? get a stream of 
+got a timeserver? get a [Kefir](https://rpominov.github.io/kefir/) stream of times from it!
 
 ## installation
 
