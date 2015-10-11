@@ -1,30 +1,15 @@
 {
-  "name": "timesink",
-  "version": "1.0.4",
-  "description": "a kefir stream of times from a timeserver",
+  "name": "time-module",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/elsehow/timesink.git"
-  },
-  "keywords": [
-    "kefir",
-    "time",
-    "sync",
-    "timeserver"
-  ],
-  "author": "elsehow",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/elsehow/timesink/issues"
-  },
-  "homepage": "https://github.com/elsehow/timesink#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "is-browser": "^2.0.1",
-    "kefir": "^3.1.0",
-    "kefir-get": "^1.0.2"
+    "moment": "^2.10.6",
+    "timesink": "^1.0.4"
   }
 }

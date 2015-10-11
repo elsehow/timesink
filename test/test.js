@@ -1,4 +1,3 @@
-var timesink = require('..')
-var timeserver = 'http://indra.webfactional.com/timeserver'
-var syncedTimes = timesink(timeserver, 500)
-syncedTimes.log()
+var p = require('..')
+
+p('http://indra.webfactional.com/timeserver', 500).log()

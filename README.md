@@ -1,8 +1,6 @@
 # timesink
 
-periodically poll a URL. get a kefir stream of responses.
-
-works in node and the browser!
+got a timeserver? get a stream of 
 
 ## installation
 
@@ -10,20 +8,18 @@ works in node and the browser!
 
 ## usage
 
-example - use timesink to periodically synchronise with a timeserver:
+first, set up a timeserver that returns a plain/text ISO date 
+
+to issue a request to your timeserver every 500 ms:
 
 ```javascript
 var timesink = require('timesink')
 
-var syncedTimes = timesink('http://my-timeserver.zone/', 500).map(Date.parse)
+var times = timesync('http://my-timeserver.zone', 500)
 ```
 
-this will synchronise with the timeserver at my-timeserver.zone every 500ms.
+## API
 
-## api
+### timesink(url, interval)
 
-`timesink(url, interval)`
-
-issues a GET request to `url` every `interval` ms.
-
-returns a kefir stream of responses.
+issues a GET request to `url` every `interval` ms. emits the response to the latest request, in case wires get crossed (see [flatMapLatest](https://rpominov.github.io/kefir/#flat-map-latest)
