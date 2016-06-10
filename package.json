@@ -1,6 +1,6 @@
 {
   "name": "timesink",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "got a timeserver? get a kefir stream of times from it!",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,14 @@
   },
   "author": "elsehow",
   "license": "MIT",
-  "tags": [ "kefir", "frp", "timesync" ],
+  "tags": [
+    "kefir",
+    "frp",
+    "timesync"
+  ],
   "dependencies": {
     "moment": "^2.10.6",
     "timesink": "^1.0.4"
-  }
+  },
+  "ipfs-shrinkwrap": "QmcuLYBLVe99RrB29Ur1AkJCRbkgonkRTArgYAbcRcFFba"
 }
